@@ -1,4 +1,4 @@
-package MultithreadingAndConcurrency;
+package MultithreadingAndConcurrency.ThreadExtendingThreadClass;
 
 public class CreatingOfThread
 {
