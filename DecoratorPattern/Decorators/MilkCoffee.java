@@ -5,7 +5,7 @@ import DecoratorPattern.SimpleCoffee.Coffee;
 
 /**
  * The {@code MilkCoffee} class is a concrete decorator that adds milk to a {@link Coffee} object.
- * It extends the {@link CoffeeDecorator} abstract class, adding additional cost and description for milk.
+ * It extends the {@link SimplecoffeeDecorator} abstract class, adding additional cost and description for milk.
  */
 public class MilkCoffee extends SimplecoffeeDecorator
 {
@@ -22,7 +22,7 @@ public class MilkCoffee extends SimplecoffeeDecorator
     /**
      * Returns the cost of the coffee with milk added.
      * <p>
-     * This method overrides the {@code getCost()} method from {@link CoffeeDecorator} to
+     * This method overrides the {@code getCost()} method from {@link SimplecoffeeDecorator} to
      * add the cost of milk to the base cost of the coffee.
      * </p>
      *
@@ -38,7 +38,7 @@ public class MilkCoffee extends SimplecoffeeDecorator
     /**
      * Returns the description of the coffee with milk added.
      * <p>
-     * This method overrides the {@code getDescription()} method from {@link CoffeeDecorator} to
+     * This method overrides the {@code getDescription()} method from {@link SimplecoffeeDecorator} to
      * append ", milk" to the base description of the coffee.
      * </p>
      *
