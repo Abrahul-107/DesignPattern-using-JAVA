@@ -1,6 +1,6 @@
-package DecoratorPattern.Decorators;
+package DecoratorPattern.Java.Decorators;
 
-import DecoratorPattern.SimpleCoffee.Coffee;
+import DecoratorPattern.Java.SimpleCoffee.Coffee;
 
 
 /**

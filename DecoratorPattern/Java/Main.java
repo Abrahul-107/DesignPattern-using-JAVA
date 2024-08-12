@@ -1,10 +1,10 @@
-package DecoratorPattern;
+package DecoratorPattern.Java;
 
-import DecoratorPattern.SimpleCoffee.Coffee;
-import DecoratorPattern.SimpleCoffee.SimpleCoffee;
-import DecoratorPattern.Decorators.MilkCoffee;
-import DecoratorPattern.Decorators.VanillaCoffee;
-import DecoratorPattern.Decorators.WhipCoffee;
+import DecoratorPattern.Java.Decorators.MilkCoffee;
+import DecoratorPattern.Java.Decorators.VanillaCoffee;
+import DecoratorPattern.Java.Decorators.WhipCoffee;
+import DecoratorPattern.Java.SimpleCoffee.Coffee;
+import DecoratorPattern.Java.SimpleCoffee.SimpleCoffee;
 
 public class Main 
 {

@@ -1,6 +1,6 @@
-package DecoratorPattern.Decorators;
+package DecoratorPattern.Java.Decorators;
 
-import DecoratorPattern.SimpleCoffee.Coffee;
+import DecoratorPattern.Java.SimpleCoffee.Coffee;
 
 /**
  * The {@code VanillaCoffee} class is a concrete decorator that adds milk to a {@link Coffee} object.

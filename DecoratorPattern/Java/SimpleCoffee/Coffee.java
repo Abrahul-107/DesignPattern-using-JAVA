@@ -1,4 +1,4 @@
-package DecoratorPattern.SimpleCoffee;
+package DecoratorPattern.Java.SimpleCoffee;
 
 public interface Coffee 
 {
