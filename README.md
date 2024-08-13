@@ -10,8 +10,8 @@ This repository contains implementations of various object-oriented design patte
 2. **Observer Pattern - Notify Me Button Functionality**
    - Design a "Notify Me" button using the Observer pattern. This pattern facilitates one-to-many relationships where multiple observers (subscribers) are notified of changes in the subject (button click).
 
-3. **Decorator Pattern - Pizza Billing System**
-   - Create a pizza ordering and billing system using the Decorator pattern. This pattern allows adding extra toppings (decorators) dynamically to a base pizza object without modifying its structure.
+3. **Decorator Pattern - Coffee Billing System**
+   - Create a Coffee ordering and billing system using the Decorator pattern. This pattern allows adding extra toppings (decorators) dynamically to a base Coffee object without modifying its structure.
 
 4. **Factory Pattern - Parking Lot**
    - Develop a parking lot management system using the Factory pattern. This pattern abstracts the process of creating different types of parking spaces (e.g., compact, standard, premium) based on user requirements.
