@@ -3,6 +3,7 @@ package CreationalFactoryDesign.App;
 import CreationalFactoryDesign.Logistic.BusLogistic;
 import CreationalFactoryDesign.Logistic.CarLogistic;
 import CreationalFactoryDesign.Logistic.Logistics;
+import CreationalFactoryDesign.Logistic.ShipLogistic;
 
 public class LogisticsApplication 
 {
@@ -14,6 +15,8 @@ public class LogisticsApplication
             logistics = new CarLogistic();
         else if(type.equalsIgnoreCase("Bus"))
             logistics = new BusLogistic();
+        else if(type.equalsIgnoreCase("Ship"))
+            logistics = new ShipLogistic();
         else
             throw new IllegalArgumentException("Unknown logistic type");
     }
@@ -26,6 +29,8 @@ public class LogisticsApplication
     {
         LogisticsApplication app = new LogisticsApplication();
         app.run("Bus");
+        app.run("Car");
+        app.run("Ship");
         
     }
 

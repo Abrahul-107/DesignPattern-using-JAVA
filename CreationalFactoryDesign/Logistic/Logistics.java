@@ -13,6 +13,8 @@ public abstract class Logistics
     {
         // Calls the factory method to create a product (Transport)
         Transport transport = createTransport();
+        System.out.println(transport);
+        
         
         // Calls a method on the created product
         transport.deliver();
