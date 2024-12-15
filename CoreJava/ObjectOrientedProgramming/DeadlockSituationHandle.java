@@ -1,3 +1,6 @@
+package CoreJava.ObjectOrientedProgramming;
+
+
 //Deadlock situation in java
 /*public class Deadlock {
     // Object locks that are required by the threads for execution.
