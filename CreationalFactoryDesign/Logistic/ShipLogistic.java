@@ -7,6 +7,7 @@ public class ShipLogistic extends Logistics
 {
     public Transport createTransport()
     {
+        System.out.println("Creting Ship object");
         return new Ship();
     }
 }
